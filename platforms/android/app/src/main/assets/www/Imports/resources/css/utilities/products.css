@@ -1,0 +1,35 @@
+html{
+    background-color: rgb(32, 68, 90)  ;
+}
+#Card{
+    border-radius: 10px;
+}
+#SearchBar{
+    margin-top: 1rem;
+}
+#InfoProduct{
+    margin-right: 1rem;
+}
+#LineAllDetails{
+    border-left: 5px solid #031d556e ;
+}
+#LineDetails{
+    border-left: 5px solid #03ff42ad ;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+}
+header, main, footer {
+    padding-left: 300px;
+  }
+ 
+  @media only screen and (max-width : 992px) {
+    header, main, footer {
+      padding-left: 0;
+    }
+  }

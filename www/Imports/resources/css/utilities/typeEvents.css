@@ -1,0 +1,38 @@
+html{
+    background-color: rgb(32, 68, 90)  ;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+}
+header, main, footer {
+    padding-left: 300px;
+  }
+ 
+  @media only screen and (max-width : 992px) {
+    header, main, footer {
+      padding-left: 0;
+    }
+  }
+#BtnAddType{
+    margin-top: 2rem;
+}
+#NameTypeEventCard{
+    margin-top: 2rem;
+}
+#btnAdd{
+    background-color: rgb(32, 68, 90)  ;
+}
+blockquote{
+    border-left: 5px solid #a0a9e7 ;
+}
+#ContentTypes{
+    margin-top: 1rem;
+}
+#editPart{
+    color: rgb(32, 68, 90)  ;
+}
